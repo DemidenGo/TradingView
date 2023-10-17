@@ -12,6 +12,7 @@
 		92F5D9102ADF18110065CA99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5D90F2ADF18110065CA99 /* ViewController.swift */; };
 		92F5D9152ADF18120065CA99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92F5D9142ADF18120065CA99 /* Assets.xcassets */; };
 		92F5D9182ADF18120065CA99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F5D9162ADF18120065CA99 /* LaunchScreen.storyboard */; };
+		92F5D9212ADF20890065CA99 /* TraderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5D9202ADF20890065CA99 /* TraderModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		92F5D9142ADF18120065CA99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92F5D9172ADF18120065CA99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92F5D9192ADF18120065CA99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92F5D9202ADF20890065CA99 /* TraderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraderModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +58,21 @@
 			children = (
 				92F5D90B2ADF18110065CA99 /* AppDelegate.swift */,
 				92F5D90D2ADF18110065CA99 /* SceneDelegate.swift */,
+				92F5D91F2ADF204D0065CA99 /* Model */,
 				92F5D90F2ADF18110065CA99 /* ViewController.swift */,
 				92F5D9142ADF18120065CA99 /* Assets.xcassets */,
 				92F5D9162ADF18120065CA99 /* LaunchScreen.storyboard */,
 				92F5D9192ADF18120065CA99 /* Info.plist */,
 			);
 			path = TradingView;
+			sourceTree = "<group>";
+		};
+		92F5D91F2ADF204D0065CA99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92F5D9202ADF20890065CA99 /* TraderModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 				92F5D9102ADF18110065CA99 /* ViewController.swift in Sources */,
 				92F5D90C2ADF18110065CA99 /* AppDelegate.swift in Sources */,
 				92F5D90E2ADF18110065CA99 /* SceneDelegate.swift in Sources */,
+				92F5D9212ADF20890065CA99 /* TraderModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
