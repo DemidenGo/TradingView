@@ -36,6 +36,8 @@
 		92F5D95D2AE1A4710065CA99 /* TraderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5D95C2AE1A4710065CA99 /* TraderViewModel.swift */; };
 		92F5D95F2AE1A8740065CA99 /* ObservableWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5D95E2AE1A8740065CA99 /* ObservableWrapper.swift */; };
 		92F5D9612AE1C3D50065CA99 /* TopTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5D9602AE1C3D50065CA99 /* TopTableHeaderView.swift */; };
+		92F5D9632AE267150065CA99 /* TradersStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5D9622AE267150065CA99 /* TradersStore.swift */; };
+		92F5D9652AE267310065CA99 /* TradersStoreProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5D9642AE267310065CA99 /* TradersStoreProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +72,8 @@
 		92F5D95C2AE1A4710065CA99 /* TraderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraderViewModel.swift; sourceTree = "<group>"; };
 		92F5D95E2AE1A8740065CA99 /* ObservableWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableWrapper.swift; sourceTree = "<group>"; };
 		92F5D9602AE1C3D50065CA99 /* TopTableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTableHeaderView.swift; sourceTree = "<group>"; };
+		92F5D9622AE267150065CA99 /* TradersStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradersStore.swift; sourceTree = "<group>"; };
+		92F5D9642AE267310065CA99 /* TradersStoreProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradersStoreProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,8 @@
 		92F5D91F2ADF204D0065CA99 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				92F5D9622AE267150065CA99 /* TradersStore.swift */,
+				92F5D9642AE267310065CA99 /* TradersStoreProtocol.swift */,
 				92F5D9202ADF20890065CA99 /* TraderModel.swift */,
 			);
 			path = Model;
@@ -277,10 +283,12 @@
 				92F5D9612AE1C3D50065CA99 /* TopTableHeaderView.swift in Sources */,
 				92F5D90C2ADF18110065CA99 /* AppDelegate.swift in Sources */,
 				92F5D92D2AE0064F0065CA99 /* Colors.swift in Sources */,
+				92F5D9632AE267150065CA99 /* TradersStore.swift in Sources */,
 				92F5D94F2AE173F60065CA99 /* TabBarController.swift in Sources */,
 				92F5D9542AE174630065CA99 /* TradeViewController.swift in Sources */,
 				92F5D90E2ADF18110065CA99 /* SceneDelegate.swift in Sources */,
 				92F5D9212ADF20890065CA99 /* TraderModel.swift in Sources */,
+				92F5D9652AE267310065CA99 /* TradersStoreProtocol.swift in Sources */,
 				92F5D95F2AE1A8740065CA99 /* ObservableWrapper.swift in Sources */,
 				92F5D9562AE1A23B0065CA99 /* TopTableViewCell.swift in Sources */,
 				92F5D9522AE174420065CA99 /* TopViewController.swift in Sources */,

@@ -9,6 +9,8 @@ import Foundation
 
 protocol TopTradersViewModelProtocol {
     var traders: [TraderViewModel] { get }
-    var tradersObservable: Observable<[TraderViewModel]> { get }
+    var viewModelUpdatedIndicesObservable: Observable<[Int]> { get }
     func viewDidLoad()
+    func viewDidAppear()
+    func viewWillDisappear()
 }

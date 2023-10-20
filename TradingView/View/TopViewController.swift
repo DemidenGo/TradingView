@@ -51,10 +51,21 @@ final class TopViewController: UIViewController {
         bind()
     }
 
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        viewModel.viewDidAppear()
+    }
+
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        viewModel.viewWillDisappear()
+    }
+
     private func bind() {
-        viewModel.tradersObservable.bind { [weak self] _ in
+        viewModel.viewModelUpdatedIndicesObservable.bind { [weak self] rowsToUpdate in
             self?.topTradersTableView.performBatchUpdates({
-                self?.topTradersTableView.reloadSections(IndexSet(integer: 0), with: .automatic)
+                self?.topTradersTableView.reloadRows(at: rowsToUpdate.map({ IndexPath(row: $0, section: 0) }),
+                                                     with: .automatic)
             })
         }
     }
