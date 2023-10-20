@@ -14,6 +14,28 @@
 		92F5D9212ADF20890065CA99 /* TraderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5D9202ADF20890065CA99 /* TraderModel.swift */; };
 		92F5D9272ADF330F0065CA99 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5D9262ADF330F0065CA99 /* SplashViewController.swift */; };
 		92F5D92A2ADF36080065CA99 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5D9292ADF36080065CA99 /* Image.swift */; };
+		92F5D92D2AE0064F0065CA99 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5D92C2AE0064F0065CA99 /* Colors.swift */; };
+		92F5D93B2AE10A610065CA99 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92F5D9322AE10A610065CA99 /* Inter-Regular.ttf */; };
+		92F5D93C2AE10A610065CA99 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92F5D9332AE10A610065CA99 /* Inter-Medium.ttf */; };
+		92F5D93D2AE10A610065CA99 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92F5D9342AE10A610065CA99 /* Inter-Thin.ttf */; };
+		92F5D93E2AE10A610065CA99 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92F5D9352AE10A610065CA99 /* Inter-ExtraBold.ttf */; };
+		92F5D93F2AE10A610065CA99 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92F5D9362AE10A610065CA99 /* Inter-Bold.ttf */; };
+		92F5D9402AE10A610065CA99 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92F5D9372AE10A610065CA99 /* Inter-ExtraLight.ttf */; };
+		92F5D9412AE10A610065CA99 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92F5D9382AE10A610065CA99 /* Inter-Light.ttf */; };
+		92F5D9422AE10A610065CA99 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92F5D9392AE10A610065CA99 /* Inter-SemiBold.ttf */; };
+		92F5D9432AE10A610065CA99 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92F5D93A2AE10A610065CA99 /* Inter-Black.ttf */; };
+		92F5D9452AE10B6C0065CA99 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5D9442AE10B6C0065CA99 /* Fonts.swift */; };
+		92F5D9482AE1152B0065CA99 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92F5D94A2AE1152B0065CA99 /* Localizable.strings */; };
+		92F5D94C2AE1161F0065CA99 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5D94B2AE1161F0065CA99 /* Localization.swift */; };
+		92F5D94F2AE173F60065CA99 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5D94E2AE173F60065CA99 /* TabBarController.swift */; };
+		92F5D9522AE174420065CA99 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5D9512AE174420065CA99 /* TopViewController.swift */; };
+		92F5D9542AE174630065CA99 /* TradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5D9532AE174630065CA99 /* TradeViewController.swift */; };
+		92F5D9562AE1A23B0065CA99 /* TopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5D9552AE1A23B0065CA99 /* TopTableViewCell.swift */; };
+		92F5D9592AE1A35B0065CA99 /* TopTradersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5D9582AE1A35B0065CA99 /* TopTradersViewModel.swift */; };
+		92F5D95B2AE1A3730065CA99 /* TopTradersViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5D95A2AE1A3730065CA99 /* TopTradersViewModelProtocol.swift */; };
+		92F5D95D2AE1A4710065CA99 /* TraderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5D95C2AE1A4710065CA99 /* TraderViewModel.swift */; };
+		92F5D95F2AE1A8740065CA99 /* ObservableWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5D95E2AE1A8740065CA99 /* ObservableWrapper.swift */; };
+		92F5D9612AE1C3D50065CA99 /* TopTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5D9602AE1C3D50065CA99 /* TopTableHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +48,28 @@
 		92F5D9202ADF20890065CA99 /* TraderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraderModel.swift; sourceTree = "<group>"; };
 		92F5D9262ADF330F0065CA99 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		92F5D9292ADF36080065CA99 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		92F5D92C2AE0064F0065CA99 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		92F5D9322AE10A610065CA99 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		92F5D9332AE10A610065CA99 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		92F5D9342AE10A610065CA99 /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
+		92F5D9352AE10A610065CA99 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		92F5D9362AE10A610065CA99 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		92F5D9372AE10A610065CA99 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		92F5D9382AE10A610065CA99 /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
+		92F5D9392AE10A610065CA99 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		92F5D93A2AE10A610065CA99 /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		92F5D9442AE10B6C0065CA99 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		92F5D9492AE1152B0065CA99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		92F5D94B2AE1161F0065CA99 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		92F5D94E2AE173F60065CA99 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		92F5D9512AE174420065CA99 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		92F5D9532AE174630065CA99 /* TradeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeViewController.swift; sourceTree = "<group>"; };
+		92F5D9552AE1A23B0065CA99 /* TopTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTableViewCell.swift; sourceTree = "<group>"; };
+		92F5D9582AE1A35B0065CA99 /* TopTradersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTradersViewModel.swift; sourceTree = "<group>"; };
+		92F5D95A2AE1A3730065CA99 /* TopTradersViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTradersViewModelProtocol.swift; sourceTree = "<group>"; };
+		92F5D95C2AE1A4710065CA99 /* TraderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraderViewModel.swift; sourceTree = "<group>"; };
+		92F5D95E2AE1A8740065CA99 /* ObservableWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableWrapper.swift; sourceTree = "<group>"; };
+		92F5D9602AE1C3D50065CA99 /* TopTableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTableHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +105,10 @@
 				92F5D90B2ADF18110065CA99 /* AppDelegate.swift */,
 				92F5D90D2ADF18110065CA99 /* SceneDelegate.swift */,
 				92F5D9262ADF330F0065CA99 /* SplashViewController.swift */,
+				92F5D94D2AE173E70065CA99 /* Navigation */,
 				92F5D91F2ADF204D0065CA99 /* Model */,
+				92F5D9502AE1741C0065CA99 /* View */,
+				92F5D9572AE1A3400065CA99 /* ViewModel */,
 				92F5D9282ADF35F30065CA99 /* Resources */,
 				92F5D9142ADF18120065CA99 /* Assets.xcassets */,
 				92F5D9162ADF18120065CA99 /* LaunchScreen.storyboard */,
@@ -81,9 +128,68 @@
 		92F5D9282ADF35F30065CA99 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				92F5D9302AE109310065CA99 /* Fonts */,
+				92F5D94A2AE1152B0065CA99 /* Localizable.strings */,
+				92F5D94B2AE1161F0065CA99 /* Localization.swift */,
 				92F5D9292ADF36080065CA99 /* Image.swift */,
+				92F5D92C2AE0064F0065CA99 /* Colors.swift */,
+				92F5D9442AE10B6C0065CA99 /* Fonts.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		92F5D9302AE109310065CA99 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				92F5D9312AE10A300065CA99 /* Inter */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		92F5D9312AE10A300065CA99 /* Inter */ = {
+			isa = PBXGroup;
+			children = (
+				92F5D93A2AE10A610065CA99 /* Inter-Black.ttf */,
+				92F5D9362AE10A610065CA99 /* Inter-Bold.ttf */,
+				92F5D9352AE10A610065CA99 /* Inter-ExtraBold.ttf */,
+				92F5D9372AE10A610065CA99 /* Inter-ExtraLight.ttf */,
+				92F5D9382AE10A610065CA99 /* Inter-Light.ttf */,
+				92F5D9332AE10A610065CA99 /* Inter-Medium.ttf */,
+				92F5D9322AE10A610065CA99 /* Inter-Regular.ttf */,
+				92F5D9392AE10A610065CA99 /* Inter-SemiBold.ttf */,
+				92F5D9342AE10A610065CA99 /* Inter-Thin.ttf */,
+			);
+			path = Inter;
+			sourceTree = "<group>";
+		};
+		92F5D94D2AE173E70065CA99 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				92F5D94E2AE173F60065CA99 /* TabBarController.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		92F5D9502AE1741C0065CA99 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92F5D9532AE174630065CA99 /* TradeViewController.swift */,
+				92F5D9512AE174420065CA99 /* TopViewController.swift */,
+				92F5D9602AE1C3D50065CA99 /* TopTableHeaderView.swift */,
+				92F5D9552AE1A23B0065CA99 /* TopTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92F5D9572AE1A3400065CA99 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				92F5D9582AE1A35B0065CA99 /* TopTradersViewModel.swift */,
+				92F5D95A2AE1A3730065CA99 /* TopTradersViewModelProtocol.swift */,
+				92F5D95C2AE1A4710065CA99 /* TraderViewModel.swift */,
+				92F5D95E2AE1A8740065CA99 /* ObservableWrapper.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,8 +250,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92F5D93C2AE10A610065CA99 /* Inter-Medium.ttf in Resources */,
+				92F5D9482AE1152B0065CA99 /* Localizable.strings in Resources */,
+				92F5D9412AE10A610065CA99 /* Inter-Light.ttf in Resources */,
 				92F5D9182ADF18120065CA99 /* LaunchScreen.storyboard in Resources */,
+				92F5D93B2AE10A610065CA99 /* Inter-Regular.ttf in Resources */,
+				92F5D9402AE10A610065CA99 /* Inter-ExtraLight.ttf in Resources */,
+				92F5D93F2AE10A610065CA99 /* Inter-Bold.ttf in Resources */,
+				92F5D9432AE10A610065CA99 /* Inter-Black.ttf in Resources */,
+				92F5D93D2AE10A610065CA99 /* Inter-Thin.ttf in Resources */,
 				92F5D9152ADF18120065CA99 /* Assets.xcassets in Resources */,
+				92F5D9422AE10A610065CA99 /* Inter-SemiBold.ttf in Resources */,
+				92F5D93E2AE10A610065CA99 /* Inter-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,10 +272,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92F5D95D2AE1A4710065CA99 /* TraderViewModel.swift in Sources */,
+				92F5D9452AE10B6C0065CA99 /* Fonts.swift in Sources */,
+				92F5D9612AE1C3D50065CA99 /* TopTableHeaderView.swift in Sources */,
 				92F5D90C2ADF18110065CA99 /* AppDelegate.swift in Sources */,
+				92F5D92D2AE0064F0065CA99 /* Colors.swift in Sources */,
+				92F5D94F2AE173F60065CA99 /* TabBarController.swift in Sources */,
+				92F5D9542AE174630065CA99 /* TradeViewController.swift in Sources */,
 				92F5D90E2ADF18110065CA99 /* SceneDelegate.swift in Sources */,
 				92F5D9212ADF20890065CA99 /* TraderModel.swift in Sources */,
+				92F5D95F2AE1A8740065CA99 /* ObservableWrapper.swift in Sources */,
+				92F5D9562AE1A23B0065CA99 /* TopTableViewCell.swift in Sources */,
+				92F5D9522AE174420065CA99 /* TopViewController.swift in Sources */,
 				92F5D9272ADF330F0065CA99 /* SplashViewController.swift in Sources */,
+				92F5D9592AE1A35B0065CA99 /* TopTradersViewModel.swift in Sources */,
+				92F5D94C2AE1161F0065CA99 /* Localization.swift in Sources */,
+				92F5D95B2AE1A3730065CA99 /* TopTradersViewModelProtocol.swift in Sources */,
 				92F5D92A2ADF36080065CA99 /* Image.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -173,6 +301,14 @@
 				92F5D9172ADF18120065CA99 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		92F5D94A2AE1152B0065CA99 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92F5D9492AE1152B0065CA99 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

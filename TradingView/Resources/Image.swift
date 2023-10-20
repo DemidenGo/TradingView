@@ -9,4 +9,6 @@ import UIKit
 
 enum Images {
     static let launchScreen = UIImage(named: "LaunchScreen")
+    static let topTabBar = UIImage(named: "TopTabBar")
+    static let tradeTabBar = UIImage(named: "TradeTabBar")
 }

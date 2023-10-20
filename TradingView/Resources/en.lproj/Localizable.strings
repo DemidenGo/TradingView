@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  TradingView
+
+  Created by Юрий Демиденко on 19.10.2023.
+  
+*/
+
+notificationAlertTitle = "“App” would like to Send You Notifications";
+notificationAlertMessage = "Notifications may include alerts, sounds and icon badges. These can be configured in Settings.";
+notificationAlertFirstActionTitle = "Don’t Allow";
+notificationAlertSecondActionTitle = "Allow";
+tradeTabBarTitle = "Trade";
+topTradersTabBarTitle = "Top";
+topTradersTitle = "TOP 10 Traders";
+numberSymbol = "№";
+countryTitle = "Сountry";
+nameTitle = "Name";
+depositTitle = "Deposit";
+profitTitle = "Profit";
+currencySymbol = "$";
