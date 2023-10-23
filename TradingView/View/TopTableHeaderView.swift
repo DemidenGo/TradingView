@@ -30,7 +30,7 @@ final class TopTableHeaderView: UIView {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = text
         label.font = UIFont(name: Fonts.interMedium, size: 12)
-        label.textColor = Colors.topTradersGreyFont
+        label.textColor = Colors.topTradersGrayFont
         return label
     }
 

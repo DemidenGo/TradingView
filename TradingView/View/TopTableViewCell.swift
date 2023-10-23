@@ -17,7 +17,7 @@ final class TopTableViewCell: UITableViewCell {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = UIFont(name: Fonts.interMedium, size: 14)
-        label.textColor = Colors.topTradersGreyFont
+        label.textColor = Colors.topTradersGrayFont
         return label
     }()
 

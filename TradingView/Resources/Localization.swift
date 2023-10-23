@@ -21,4 +21,13 @@ enum L10n {
     static let depositTitle = NSLocalizedString("depositTitle", comment: "")
     static let profitTitle = NSLocalizedString("profitTitle", comment: "")
     static let currencySymbol = NSLocalizedString("currencySymbol", comment: "")
+    static let tradeTitle = NSLocalizedString("tradeTitle", comment: "")
+    static let balanceTitle = NSLocalizedString("balanceTitle", comment: "")
+    static let currencyPairTitle = NSLocalizedString("currencyPairTitle", comment: "")
+    static let timerTitle = NSLocalizedString("timerTitle", comment: "")
+    static let investmentTitle = NSLocalizedString("investmentTitle", comment: "")
+    static let sellTitle = NSLocalizedString("sellTitle", comment: "")
+    static let buyTitle = NSLocalizedString("buyTitle", comment: "")
+    static let successfullyTitle = NSLocalizedString("successfullyTitle", comment: "")
+    static let continueTitle = NSLocalizedString("continueTitle", comment: "")
 }

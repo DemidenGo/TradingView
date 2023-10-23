@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		923C39392AE52C2F00826FF9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923C39382AE52C2F00826FF9 /* Constants.swift */; };
+		923C393B2AE55F4300826FF9 /* SelectPairViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923C393A2AE55F4300826FF9 /* SelectPairViewController.swift */; };
+		923C393F2AE563F000826FF9 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923C393E2AE563F000826FF9 /* NavigationController.swift */; };
+		923C39412AE5803D00826FF9 /* CurrencyPairCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923C39402AE5803D00826FF9 /* CurrencyPairCollectionViewCell.swift */; };
+		923C39432AE599CF00826FF9 /* CurrencyPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923C39422AE599CF00826FF9 /* CurrencyPairs.swift */; };
+		923C39452AE5AB8D00826FF9 /* ValuePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923C39442AE5AB8D00826FF9 /* ValuePicker.swift */; };
 		92F5D90C2ADF18110065CA99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5D90B2ADF18110065CA99 /* AppDelegate.swift */; };
 		92F5D90E2ADF18110065CA99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5D90D2ADF18110065CA99 /* SceneDelegate.swift */; };
 		92F5D9152ADF18120065CA99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92F5D9142ADF18120065CA99 /* Assets.xcassets */; };
@@ -38,9 +44,17 @@
 		92F5D9612AE1C3D50065CA99 /* TopTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5D9602AE1C3D50065CA99 /* TopTableHeaderView.swift */; };
 		92F5D9632AE267150065CA99 /* TradersStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5D9622AE267150065CA99 /* TradersStore.swift */; };
 		92F5D9652AE267310065CA99 /* TradersStoreProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5D9642AE267310065CA99 /* TradersStoreProtocol.swift */; };
+		92F5D9672AE2E2240065CA99 /* TradeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5D9662AE2E2240065CA99 /* TradeViewModel.swift */; };
+		92F5D9692AE2E2460065CA99 /* TradeViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5D9682AE2E2460065CA99 /* TradeViewModelProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		923C39382AE52C2F00826FF9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		923C393A2AE55F4300826FF9 /* SelectPairViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPairViewController.swift; sourceTree = "<group>"; };
+		923C393E2AE563F000826FF9 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		923C39402AE5803D00826FF9 /* CurrencyPairCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPairCollectionViewCell.swift; sourceTree = "<group>"; };
+		923C39422AE599CF00826FF9 /* CurrencyPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPairs.swift; sourceTree = "<group>"; };
+		923C39442AE5AB8D00826FF9 /* ValuePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValuePicker.swift; sourceTree = "<group>"; };
 		92F5D9082ADF18110065CA99 /* TradingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92F5D90B2ADF18110065CA99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92F5D90D2ADF18110065CA99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +88,8 @@
 		92F5D9602AE1C3D50065CA99 /* TopTableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTableHeaderView.swift; sourceTree = "<group>"; };
 		92F5D9622AE267150065CA99 /* TradersStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradersStore.swift; sourceTree = "<group>"; };
 		92F5D9642AE267310065CA99 /* TradersStoreProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradersStoreProtocol.swift; sourceTree = "<group>"; };
+		92F5D9662AE2E2240065CA99 /* TradeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeViewModel.swift; sourceTree = "<group>"; };
+		92F5D9682AE2E2460065CA99 /* TradeViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeViewModelProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +143,7 @@
 				92F5D9622AE267150065CA99 /* TradersStore.swift */,
 				92F5D9642AE267310065CA99 /* TradersStoreProtocol.swift */,
 				92F5D9202ADF20890065CA99 /* TraderModel.swift */,
+				923C39422AE599CF00826FF9 /* CurrencyPairs.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -137,6 +154,7 @@
 				92F5D9302AE109310065CA99 /* Fonts */,
 				92F5D94A2AE1152B0065CA99 /* Localizable.strings */,
 				92F5D94B2AE1161F0065CA99 /* Localization.swift */,
+				923C39382AE52C2F00826FF9 /* Constants.swift */,
 				92F5D9292ADF36080065CA99 /* Image.swift */,
 				92F5D92C2AE0064F0065CA99 /* Colors.swift */,
 				92F5D9442AE10B6C0065CA99 /* Fonts.swift */,
@@ -172,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				92F5D94E2AE173F60065CA99 /* TabBarController.swift */,
+				923C393E2AE563F000826FF9 /* NavigationController.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -183,6 +202,9 @@
 				92F5D9512AE174420065CA99 /* TopViewController.swift */,
 				92F5D9602AE1C3D50065CA99 /* TopTableHeaderView.swift */,
 				92F5D9552AE1A23B0065CA99 /* TopTableViewCell.swift */,
+				923C393A2AE55F4300826FF9 /* SelectPairViewController.swift */,
+				923C39402AE5803D00826FF9 /* CurrencyPairCollectionViewCell.swift */,
+				923C39442AE5AB8D00826FF9 /* ValuePicker.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -190,6 +212,8 @@
 		92F5D9572AE1A3400065CA99 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				92F5D9662AE2E2240065CA99 /* TradeViewModel.swift */,
+				92F5D9682AE2E2460065CA99 /* TradeViewModelProtocol.swift */,
 				92F5D9582AE1A35B0065CA99 /* TopTradersViewModel.swift */,
 				92F5D95A2AE1A3730065CA99 /* TopTradersViewModelProtocol.swift */,
 				92F5D95C2AE1A4710065CA99 /* TraderViewModel.swift */,
@@ -278,9 +302,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				923C39432AE599CF00826FF9 /* CurrencyPairs.swift in Sources */,
 				92F5D95D2AE1A4710065CA99 /* TraderViewModel.swift in Sources */,
+				923C393F2AE563F000826FF9 /* NavigationController.swift in Sources */,
+				923C39392AE52C2F00826FF9 /* Constants.swift in Sources */,
+				923C39412AE5803D00826FF9 /* CurrencyPairCollectionViewCell.swift in Sources */,
 				92F5D9452AE10B6C0065CA99 /* Fonts.swift in Sources */,
 				92F5D9612AE1C3D50065CA99 /* TopTableHeaderView.swift in Sources */,
+				92F5D9672AE2E2240065CA99 /* TradeViewModel.swift in Sources */,
 				92F5D90C2ADF18110065CA99 /* AppDelegate.swift in Sources */,
 				92F5D92D2AE0064F0065CA99 /* Colors.swift in Sources */,
 				92F5D9632AE267150065CA99 /* TradersStore.swift in Sources */,
@@ -289,13 +318,16 @@
 				92F5D90E2ADF18110065CA99 /* SceneDelegate.swift in Sources */,
 				92F5D9212ADF20890065CA99 /* TraderModel.swift in Sources */,
 				92F5D9652AE267310065CA99 /* TradersStoreProtocol.swift in Sources */,
+				923C39452AE5AB8D00826FF9 /* ValuePicker.swift in Sources */,
 				92F5D95F2AE1A8740065CA99 /* ObservableWrapper.swift in Sources */,
 				92F5D9562AE1A23B0065CA99 /* TopTableViewCell.swift in Sources */,
+				923C393B2AE55F4300826FF9 /* SelectPairViewController.swift in Sources */,
 				92F5D9522AE174420065CA99 /* TopViewController.swift in Sources */,
 				92F5D9272ADF330F0065CA99 /* SplashViewController.swift in Sources */,
 				92F5D9592AE1A35B0065CA99 /* TopTradersViewModel.swift in Sources */,
 				92F5D94C2AE1161F0065CA99 /* Localization.swift in Sources */,
 				92F5D95B2AE1A3730065CA99 /* TopTradersViewModelProtocol.swift in Sources */,
+				92F5D9692AE2E2460065CA99 /* TradeViewModelProtocol.swift in Sources */,
 				92F5D92A2ADF36080065CA99 /* Image.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,7 +404,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -426,7 +458,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -450,6 +482,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,6 +510,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
